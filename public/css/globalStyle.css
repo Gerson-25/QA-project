@@ -1,0 +1,18 @@
+.nav-container{
+    padding-right: 40px;
+    padding-top: 25px !important;
+    height: 10%;
+}
+
+.nav-container a{
+    padding-right: 15px;
+}
+
+.nav-container a:hover{
+    font-weight: bold;
+    border-bottom: 2px solid black !important;
+}
+
+.row{
+    margin-bottom: 0px !important;
+}

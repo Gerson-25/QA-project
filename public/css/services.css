@@ -1,0 +1,10 @@
+.services-list{
+    margin-top: 40px !important;
+}
+.services-list .card-content{
+    font-size: 12px !important;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;  
+}

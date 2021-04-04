@@ -1,15 +1,27 @@
 .form-container{
-    width: 100%;
+    padding-left: 40px;
+    height: 90%;
 }
 
-nav{
-    
+.website-container{
+    height: 100vh;
+    background-image: url('../img/banner_pet_2.jpg');
 }
 
-.form{
-    width: 80%;
+.home-information{
+    border-radius: 20px;
 }
 
-.list{
-    width: 20%;
+.home-text{
+    font-family: 'Cabin', sans-serif;   
+    font-size: 1.5rem;
+}
+
+.home-text span{
+    font-weight: bold;
+}
+
+.ver-consultas{
+    background-color: transparent !important;
+    border: solid #4db6ac 2px !important;
 }

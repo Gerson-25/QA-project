@@ -1,0 +1,11 @@
+.form-container{
+    font-family: 'Cabin', sans-serif;  
+    margin-top: 70px;
+    padding-left: 40px;
+    height: 90%;
+}
+
+.form-container h5{
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
