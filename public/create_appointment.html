@@ -23,40 +23,48 @@
             <a href="contact_us.html" class="black-text">Contactanos</a>
         </div>
 
-        <div class="form-container row valign-wrapper col s12">
 
+        <div class="form-container row halign-wrapper col s12">
+
+            <div class="center green lighten-4 green-text col s4 offset-s4 notification-alert" style="display: none; padding: 5px; border-radius: 15px; margin-bottom: 15px; font-size: 10px; border: green 1px solid;"><div class="center col s11">Has agregado una nueva mascota</div><div class="right col s1 green-text"><a href="" class="green-text close-alert">X</a></div></div>
 
             <form action="" class="col s12">
                 <div class="row">
                 
                     <div class="offset-s3 col s6">
-                        <h5>Creando una nueva consulta</h5>
+                        <h5>Agrega una nueva mascota</h5>
 
                         <div class="input-field col s12">
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Nombre de tu mascota</label>
+                            <input id="name" type="text" class="validate">
+                            <label for="name">Nombre de tu mascota</label>
                         </div>
                         <div class="input-field col s12">
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Tipo de mascota</label>
+                            <select name="" id="type">
+                                <option value="none" disable selected>Seleccione una opcion</option>
+                                <option value="Perro">Perro</option>
+                                <option value="Gato">Gato</option>
+                                <option value="Loro">Loro</option>
+                                <option value="Toruga">Tortuga</option>
+                            </select>
+                            <label for="type">Tipo de mascota</label>
                         </div>
                         <div class="input-field col s12">
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">Edad aproximada</label>
+                            <input id="age" type="text" class="validate">
+                            <label for="age">Edad aproximada</label>
                         </div>
 
-                        <button class="btn">Crear consulta</button>
-                    </div>
-                </div>
+                        <button class="btn save-button" style="margin-top: 20px;">Agregar</button>
+                    
             </form>
-
+            
         </div>
     </div>
     
 
 
 
-
+    <script src="js/create.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
